@@ -1,0 +1,109 @@
+h2.text-center {
+  background-color: goldenrod;
+    margin-top:5px;
+    padding: 10px;
+}
+
+.row.d-flex.justify-content-center.align-items-center {
+
+  /* background-color: #e3f2fd; */
+  background-color:gray;
+  align-items: center;
+  justify-content: center;
+  
+}
+li.list-group-item {
+    background-color: dimgray;
+}
+
+.card {
+      width: 18rem;
+    margin: 20px 10px;
+    height: 500px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+  background-color:dimgray;
+   
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 1rem;
+}
+
+img.card-img-top {
+  height: 200px;
+    margin: 5px;
+      width: 100%;
+  border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}
+h5.card-title {
+    color:darkblue;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+li.list-group-item {
+  color: darkred;
+    font-weight: bolder;
+}
+
+ul.list-group.list-group-flush {
+  border-top: inherit;
+    border-bottom: inherit;
+  isplay: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    border-radius: 0.25rem;
+}
+li.list-group-item {
+    color: darkred;
+}
+
+li.list-group-item.cat {
+    color: gold;
+}
+
+li.list-group-item.rating {
+    color: greenyellow;
+}
+
+button.btn-warning {
+  color: #000;
+  font-weight:900;
+    border-color: gold;
+  border-radius: 5px;
+    background-color: green;
+}
+button.btn-warning:hover {
+  color: red;
+  font-weight:900;
+    border-color: red;
+  border-radius: 10px;
+    background-color: yellow;
+}
+input[type="text"] {
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    color: red;
+    width: 246px;
+    margin: 5px 2px;
+    padding: 3px;
+    align-content: center;
+}
+
+.searchbar {
+  border: 1px solid lavenderblush;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: baseline;
+  background-color: goldenrod;
+}
